@@ -77,7 +77,7 @@ function drawField() {
 this.color = Math.random() < 1 ? "hsla(100,90%,50%,1)" : "hsla(200,50%,50%,1)";
       
       /*ctx.strokeStyle = colors[Math.floor(Math.random() * colors.length)];*/
-      ctx.strokeStyle = `hsl(${x * 4 + y * 7}deg, 90%, 50%)`;
+      ctx.strokeStyle = `hsl(${x * 4 + y * 7}deg, 90%, 40%)`;
       ctx.beginPath();
       ctx.moveTo(0, 0);
       ctx.lineTo(0, size * length);
